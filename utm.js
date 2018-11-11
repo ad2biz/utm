@@ -24,7 +24,7 @@
       decode = decodeURIComponent,
       params = {},
       fields = [],
-      query = loc.search.substring(1),
+      query = loc.search.substr(1),
       pairs = query.split('&');
   for (var i = 0; i < pairs.length; i++) {
     var pair = pairs[i].split('=');
@@ -45,6 +45,6 @@
       params[k] = v; // for debug
     }
   }
-  w.AD2=w.AD2||{};
-  w.AD2.utm=params;
-})(window||root)
+  w.AD2 = w.AD2 || {};
+  w.AD2.utm = params;
+})( window || root )
