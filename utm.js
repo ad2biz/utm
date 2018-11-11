@@ -13,11 +13,11 @@
  *
  * 3) Modify the form in your form submission page to add these hidden fields:
  *
- * <input type=hidden class=utm name=utm_source>
- * <input type=hidden class=utm name=utm_medium>
- * <input type=hidden class=utm name=utm_campaign>
- * <input type=hidden class=utm name=utm_keyword>
- * <input type=hidden class=utm name=utm_term>
+ * <input type="hidden" class="utm" name="utm_source">
+ * <input type="hidden" class="utm" name="utm_medium">
+ * <input type="hidden" class="utm" name="utm_campaign">
+ * <input type="hidden" class="utm" name="utm_keyword">
+ * <input type="hidden" class="utm" name="utm_term">
  */
 (function(w){
   var loc=w.location,
