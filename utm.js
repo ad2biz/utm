@@ -45,6 +45,6 @@
       params[k] = v; // for debug
     }
   }
-  window.AD2=window.AD2||{};
-  window.AD2.utm=params;
+  w.AD2=w.AD2||{};
+  w.AD2.utm=params;
 })(window||root)
