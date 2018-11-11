@@ -1,6 +1,6 @@
 # utm
 
-Manage Google Analytics UTM parameters, by storing them in `sessionStorage` so
+Manage Google Analytics UTM parameters by storing them in `sessionStorage` so
 they are accessible to your web forms (e.g. email subscription or sign-up).
 
 ## utm.js
@@ -8,8 +8,10 @@ they are accessible to your web forms (e.g. email subscription or sign-up).
 1) Add this line of HTML at the end, before `</html>` in your landing page(s):
 
 ```html
-<script src="ad2.biz/utm.js"></script>
+<script src="utm.js"></script>
 ```
+
+(or use the path to your copy of the "utm.js" file, e.g. "/scripts/utm.js")
 
 2) Add this same line of HTML before `</html>` in your form submission page.
 
