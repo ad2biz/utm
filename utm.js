@@ -5,7 +5,9 @@
  *
  * 1) Add this line of HTML at the end, before </html> in your landing page(s):
  *
- * <script src="ad2.biz/utm.js"></script>
+ * <script src="utm.js"></script>
+ *
+ * (or use the path to your copy of the "utm.js" file, e.g. "/scripts/utm.js")
  *
  * 2) Add this same line of HTML before </html> in your form submission page.
  *
